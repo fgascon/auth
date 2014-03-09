@@ -1,0 +1,11 @@
+{
+	"env": "dev",
+	"port": 3000,
+	"db": {
+		"connection": "mongodb://localhost/auth"
+	},
+	"session": {
+		"secret": "super secret phrase",
+		"maxAge": 3600
+	}
+}
